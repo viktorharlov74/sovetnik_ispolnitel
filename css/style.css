@@ -1772,6 +1772,7 @@ p{
    			margin-top: 60px;
    		}
    		h2.title-work{
+   			font-size: 21.33px;
    			margin-top: 20px;
 
    		}
@@ -1888,46 +1889,58 @@ p{
 		.primuchblock{
 			text-align: center;
 			margin: 0 auto;
-			margin-bottom: 10px;
+			margin-bottom: 60px;
 		}
 
 		.mtd-87{
 			margin-top: 20px;
 		}
 		.mtd-87 .col-12{
-			margin-bottom: 20px;
+			margin-bottom: 50px;
 		}
 		.work-right .otziv{
-			width: 96%;
+			width: 87%;
+			min-width: 280px;
 			margin: 0 auto;
-			max-width: 350px;
+			/*max-width: 350px;*/
 		}
 
 		.blockotziv-new{
-			width: 96%;
-			max-width: 350px;
+			width: 100%;
 			margin: 0 auto;
+			padding-top: 90px;
+			padding-bottom: 30px;
 
 		}
 		p.podhead {
-			width: 90%;
+			width: 75%;
+			min-width: 240px;
+			margin-bottom: 10px;
+			
 			margin: 0 auto;
+			text-align: center;
+		}
+		.greysliderblock.two {
+			margin-top: 10px;
 		}
 
 	.figure-border{
-		width: 20%;
-		max-width: 64px;
 		margin-right:  20px;
 	}
 
 	.text-figure{
+		font-size: 16px;
+		line-height: 19px;
 		padding-top: 5px;
 	}
 
 	.tarif{
-		width: 90%;
-		max-width: 250px;
+		
+		width: 280px;
 		margin: 0 auto;
+		padding-top: 30px;
+		height: 220px;
+		margin-bottom: 20px;
 	}
 	.info-tarif{
 		width: 100%;
@@ -1936,7 +1949,7 @@ p{
 	}
 
 	.buttonwork .tarifb{
-		width: 150px;
+		width: 160px;
 	}
 	.preimush .row{
 		width: 98%;
@@ -1952,9 +1965,93 @@ p{
 	.avatarblock{
 		width: 150px;
 	}
+	.preimush {
 
+	    padding-top: 60px;
 
+	}
 
+	p.preimush{
+		padding-top: 20px;
+	}
+	.how-zak h2.title-work{
+		font-size: 21.33px;
+		line-height: 25px;
+		/* identical to box height */
+
+		text-align: center;
+		width: 280px;
+	}
+	.pod-how-zak {
+		margin-top: 20px;
+	}
+	.tasksall{
+		/*margin-top: 20px;*/
+	}
+	.text-otziv{
+		width: 240px;
+		margin: 0 auto;
+	}
+	.avatar-new {
+		width: 100px !important;
+		height: 100px;
+	}
+
+	.avatarblock-new {
+
+	    position: relative;
+	    top: 50px;
+	    left: 20px;
+	    width: 80px;
+	    height: 80px;
+
+	}
+	.work-right{
+
+	}
+
+	.info-tarif h4.workhead{
+		text-align: left;
+		font-size: 16px;
+		line-height: 19px;
+		width: 240px;
+		margin-left: 20px;
+		color: #1A1A1A;
+		margin-bottom: 15px;
+	}
+
+	.info-tarif  .podhead{
+		text-align: left;
+	}
+	.buttonwork{
+		width: 240px;
+		margin: 0 auto;
+	}
+
+	p.value-money{
+		width: 240px;
+		margin-left: 20px;
+	}
+
+	p.sotrudn-p{
+		width: 280px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		letter-spacing: 0.01em;	
+	}
+	.buttonwork .login.opacity-orange{
+		width: 231px;
+	}
+	button.big{
+		width: 270px !important;
+	}
+	.big{
+		width: 98% !important;
+		margin:0 auto;
+	}
+	
 
 
 
@@ -1971,7 +2068,7 @@ p{
 
 	}
 			#owl-carousel-2.owl-theme .owl-nav{
-			top:520px;
+			top:570px;
 			left: 23%;
 
 		}
@@ -2024,8 +2121,8 @@ p{
 
 		.main-slider{
     		height: 452px;
-    		background: url(../img/mobile.png) no-repeat;
-    		background-position: center;
+    		background: url(../img/bg_560.png) no-repeat;
+    		background-position: top;
     	}
     	h1.titleslider {
 
@@ -2111,13 +2208,14 @@ p{
 		    height: 452px;
 
 		}
-		.sliderblock {
+		p.sliderblock {
 
     	text-align: left;
-    	width: 258px;
+    	width: 240px;
+    	margin-left: 20px;
     }
-    .name,.greysliderblock {
-    	width: 258px;
+    .name,p.greysliderblock {
+    	width: 240px;
     	margin-left: 20px;
     }
     .otziv-item {
@@ -2306,20 +2404,24 @@ p{
     		padding-left: 0;
 		}
 	  	.otziv-item {
-	  		width: 300px;
-	  		margin-right: 10px;
+	  		width: 280px;
+	  		margin-left: 20px;
 	  	}
 	  	.blockotziv {
-	  		width: 290px;
+	  		width: 280px;
+	  		margin: 0 auto;
 	  	}
 	  	#owl-carousel-2{
 	  		margin-top:60px
 	  	}
+	  	#owl-carousel-2 > .owl-stage-outer > .owl-stage>.owl-item{
+	  		margin: 0 auto;
+	  	}
 		#owl-carousel-2 > .owl-stage-outer > .owl-stage>.owl-item.active {
     		width: 280px !important;
-    		margin-left: 0px;
+    		margin: 0 auto;
 		}
-		.sliderblock {
+		p.sliderblock {
 
     	text-align: left;
     	width: 240px;
@@ -2335,7 +2437,7 @@ p{
 			width: 80px !important;
 			height: 80px;
 		}
-		.name, .greysliderblock {
+		.name, p.greysliderblock {
 
 		    width: 240px;
 		    margin-left: 20px;
@@ -2396,8 +2498,8 @@ p{
 		}
 		h4.workhead{
 			width: 280px;
-			font-size: 16px;
-			line-height: 20px;
+			font-size: 21.33px;
+			line-height: 25px
 		}
 		h6.podhead {
 			width: 260px;

@@ -417,6 +417,15 @@ a.create,a.howwork{
 	background-color: #FAFAFA;
 	
 }
+.transform-questions{
+	    background: #FAFAFA url(../img/bg_quest_1920.png) repeat;
+    	background-position: center;
+}
+
+.transform.sotrud{
+	    background: #FAFAFA url(../img/bg_sotrud.png) repeat;
+    	background-position: center;
+}
 
 .primuch{
 	width: 90%;
@@ -1097,9 +1106,27 @@ i {
 
 
 
+.line-fluid img{
+	width: 100%;
+	height: 100%;
+	/*height: auto;*/
+}
 
+.question.top{
+		/*height: auto;*/
+		/*background: #FAFAFA url(../img/lines/line_top_q_1920.png);*/
+    	/*background-position: center;*/
+}
 
-
+.line-fluid .bid-d{
+	display: block;
+}
+.line-fluid .d{
+	display: none;
+}
+.line-fluid .mobile{
+	display: none;
+}
 
 
 
@@ -1111,6 +1138,21 @@ i {
 
 
 	@media (max-width: 1490px) {
+
+		.line-fluid .bid-d{
+			display: none;
+		}
+		.line-fluid .d{
+			display: block;
+		}
+		.line-fluid .mobile{
+			display: none;
+		}
+
+		.transform-questions{
+	    background: #FAFAFA url(../img/bg_quest_1440.png) repeat;
+    	background-position: center;
+		}
 
 		.preimush{
 			padding-top: 80px;
@@ -1563,7 +1605,12 @@ i {
 		}
 		.work-left {
 		    padding: 0px;
-		    margin-right: 59px;
+		    /*margin-right: 59px;*/
+		    margin: 0 auto;
+		}
+
+		.work-left .otziv {
+			margin: 0 auto;
 		}
 		.work-right {
 		    padding: 0px;
@@ -1749,9 +1796,22 @@ i {
 
 
     @media (max-width: 576px) {
+
+
+		.line-fluid .bid-d{
+			display: none;
+		}
+		.line-fluid .d{
+			display: block;
+		}
+		.line-fluid .mobile{
+			display: none;
+		}
+
     	.litle-bg{
 			display: block;
 		}
+
     	.menu-mobile{
     		width: 59px;
 			height: 49px;
@@ -1976,9 +2036,16 @@ i {
 
 	@media(max-width: 480px){
 
-
-
-
+		.button-div button.start_spec {
+			margin-top: 0px;
+		}
+		.tasksall.last{
+			margin-bottom: 56px;
+		}
+		.transform-questions{
+			    background: #FAFAFA url(../img/bg_qeust.png) repeat;
+		    	background-position: center;
+		}
 
 
 		.sovet {
@@ -2001,6 +2068,7 @@ i {
 		}
 		.mtd-87 .col-12{
 			margin-bottom: 50px;
+			padding: 0px 50px;
 		}
 		.work-right .otziv{
 			width: 87%;
@@ -2018,7 +2086,7 @@ i {
 
 		}
 		p.podhead {
-			width: 75%;
+			width: 90%;
 			min-width: 240px;
 			margin-bottom: 10px;
 			
@@ -2175,6 +2243,17 @@ i {
 		.strelka{
 			padding-right: 40px;
 		}
+		.container-fluid.otziv {
+			margin-top: 20px;
+		}
+		.container-fluid.otziv {
+
+		    padding-bottom: 165px;
+
+		}
+		.qq{
+			padding-top: 15px;
+		}
 
 	
 
@@ -2218,7 +2297,7 @@ i {
     		margin-top: 20px;
 		}
 		.transform{
-			padding-bottom: 40px;
+			padding-bottom: 24px;
 		}
 		.lineimg.show-mobile{
 			display: block;
@@ -2699,4 +2778,8 @@ i {
     		background: url(../img/bg_320.png) no-repeat;
     		background-position: top;
     	}
+    	.mtd-87 .col-12{
+			margin-bottom: 50px;
+			padding: 0px 20px;
+		}
    }
